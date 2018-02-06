@@ -25,7 +25,7 @@ fi
 
 echo "Downloading pretrained ImageNet models (1G)..."
 
-wget $URL -O $FILE
+wget $URL --no-check-certificate -O $FILE
 
 echo "Unzipping..."
 
